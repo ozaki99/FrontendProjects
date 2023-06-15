@@ -1,0 +1,65 @@
+/* CTRL + Ö = CSS için açıklama satırları tıpkı javada olduğu gibi slash yıldız ile başlar ve yıldız slash ile biter.
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:darkblue;
+    font-size: 64px;
+}
+
+
+Ama css ile böyle yapılar çok yapılmaz onun yerine
+
+class'' başına nokta konularak böyle yazılır :
+.ornek-sinif-ismi {
+
+}
+
+
+id'' böyle yazılır
+#id-bilgisi {
+
+}
+
+
+main.html üzerinde deneyelim
+*/
+
+/* Bu alttakiler oluşturulmuş class'lardır */
+
+.text-red{
+    color:red;
+}
+
+.font-size-small {
+    font-size:14px;
+}
+
+.font-size-medium {
+    font-size:20px;
+}
+
+.font-size-large {
+    font-size:30px;
+}
+
+/* ID dosyaları bu şekilde çağırılır 
+main içindeki ul listi burada id ile çağırdık ve font size 90 yaparak bütün işin içine sı****/
+
+#first-ul {
+    font-size:90px;
+}
+
+/* Mesela
+Eğer sitemizde bütün başlıklar için standart bir yapı istiyorsak bunu yapabiliriz */
+
+h1, h2, h3, h4, h5, h6 {
+    color: #202020;
+}
+
+/* 
+Color: 
+HEX Color demek color: #202020 gibi adlandırılan renklerdir
+RGB Color demek color: rgb (125,216,125) gibi koordinata benzer şekilde adlandırılan renk seçimleridir
+*/
+
+

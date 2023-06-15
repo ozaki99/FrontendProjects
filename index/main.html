@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<!-- Emmet özelliklerinden biri de etiket oluştururken class ile birlikte oluşturabiliyor olmamız... Bunun için şunu yazıp enter basın
+
+    h1.font-size-medium + enter
+    ör:
+    p.text-red>lorem15
+
+emmet ile birden fazla class çağırmak için
+
+h1.text-red.font-size-small.xyz-classi-vs + enter
+
+-->
+
+    <!-- Eğer body içine class="text-red" yapsaydık body içindeki bütün yazılar kırmızı olurdu -->
+    <article class="font-size-medium">
+        <h1>Lorem.</h1>
+        <h3>Lorem, ipsum dolor.</h3>
+        <p class="text-red">Lorem ipsum dolor sit amet.</p>
+        <p>Veniam in asperiores nam? Aut.</p>
+        <p class="text-red">Quisquam illum vitae pariatur unde.</p>
+        <p>Earum magnam voluptatem odit provident?</p>
+        <p>Mollitia totam unde neque molestias!</p>
+    </article>
+
+    <article>
+        <h1 class="text-red font-size-large">Placeat.</h1>
+        <h2>Asperiores, natus commodi.</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Alias accusamus dolor unde rem!</p>
+        <p>Animi minus nemo repellendus illum.</p>
+        <p>Vero vitae ex autem quo!</p>
+        <p>Corporis, nulla. Pariatur, et nulla?</p>
+    </article>
+
+    <article>
+        <h1>Tenetur.</h1>
+        <h2>Reprehenderit, quod commodi.</h2>
+
+
+        <!-- Birden fazla class arasında bir boşluk olacak şekilde çağırılır -->
+        <div class="font-size-small text-red"> 
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Vel, laborum! Culpa, ullam odio!</p>
+            <p>Odit quia culpa exercitationem saepe.</p>
+            <p>Sequi repellendus asperiores labore natus.</p>
+            <p>Ipsum, quos. Vitae, in sint?</p>
+        </div>
+    </article>
+
+
+    <!-- ID denemeleri -->
+
+<!-- ul#first-ul>li*5>lorem3 -->
+
+<!-- Bu first-ul id'sini css dosyasında çağırıyoruz ve izliyoruz.. -->
+    <ul id="first-ul">
+        <li>Lorem, ipsum dolor.</li>
+        <li>Obcaecati, dolores tempora!</li>
+        <li>Minus, officia laborum?</li>
+        <li>Delectus, repudiandae ipsum?</li>
+        <li>Reprehenderit, a itaque.</li>
+    </ul>
+
+
+
+</body>
+</html>
