@@ -1,0 +1,30 @@
+.h2 {
+    color:darkgreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.h1 {
+    color: rgb(98, 88, 160);
+}
+
+body {
+    background-image: url(https://img.freepik.com/free-vector/white-musical-background-with-sound-note-equalizer_1017-33907.jpg?w=2000);
+}
+
+li {
+    list-style-position: inside;
+}
+
+div.container {
+    text-align: center;
+  }
+  
+  ul.myL {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  ol.myL {
+    display: inline-block;
+    text-align: center;
+  }
+
