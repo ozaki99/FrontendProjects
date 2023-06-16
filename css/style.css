@@ -62,4 +62,123 @@ HEX Color demek color: #202020 gibi adlandırılan renklerdir
 RGB Color demek color: rgb (125,216,125) gibi koordinata benzer şekilde adlandırılan renk seçimleridir
 */
 
+/* 
+Eğer biz aşağıdaki şekilde bir class oluşturursak
 
+.color-blue.font-size-small {
+    color:blue;
+    font-size:small;
+}
+ve bunu şu şekilde çağırırsak
+
+<h1 class="color-blue">
+işe yaramayacaktır.
+
+Çünkü o iki sınıfı arka arkaya yazdık yani bu demek ki ikisi bir etikette aynı anda bulunmadığı sürece çalışmayacaktır.
+
+.color-blue .font-size-small
+bakın arasında boşluk var bu demek ki üst etikette color blue varken alt etiketlerine hangilerinde font size small varsa sadece o kodlarda çalışacaktır
+*/
+
+
+/* 
+first child nedir
+
+ul>li:first-child {
+    color:green;
+}
+
+first child demek ilk elemanını etkiler demek
+yani bir ul'nin ilk li'si yeşil renk olacaktır
+
+bunun tersi ise last-child'dır
+
+li:nth-child(3) {
+    color:red;
+}
+nth child(3) dedik ve 3. liste elemanını kırmızı yaptık
+
+nth-child(odd) yazsaydık yalnızca tekli sayıları kırmızı yapardı
+
+nth-child(even) ise yalnızca çift sayıları etkiler
+
+nth-child(3n) demek üçün katlarını etkiler demek
+
+*/
+
+/* MARGIN PADDING WIDTH HEIGHT BÖLÜMÜ AŞAĞIDA */
+
+.box {
+    /* burada box classının genişliğini uzunluğunu belirttik */
+    width: 250px;
+    height: 250px;
+    
+    /* burada padding ile box'un kenarlarına bir nevi border ekledik */
+    padding: 10px;
+
+    /* burada margin ile boxların arasındaki boşluğu belirliyoruz */
+    margin: 20px;
+    /* fakat margin 20px yazdığımızda bu kutuyu her tarafından 20px ilerletir. 
+    Bunu istemiyorsak
+     ör:margin-left: 20px;
+
+     veya
+     margin-left:auto;
+     dersek otomatik ayarlar
+
+     margin: 0 auto;
+
+       1
+    4     2
+       3
+       margin belirtirken 4e kadar değer girebiliriz 0 auto 0 auto vs
+       eğer iki tane girersek iki tarafı onu baz alarak çizer
+
+
+     diye belirtebiliriz 
+    Bu padding'de de aynıdır...*/
+
+    /* margin özelliği default olarak browserda vardır bunu yok etmek için de
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    yapabiliriz...
+
+
+
+/* FLOAT */
+    /* bildiğimiz gibi html ile yazdığımız şeyler genelde altaltadır.
+    Bunu düzeltmek için şimdilik float var
+    mesela class'ın içine float: left; yazdık 
+    o zaman boxlar yan yana olacaktır */
+
+/* Pekii öyle yaptık fakat birçok h1 yazdığımızda hepsi iç içe yan yana girdi
+bunu çözmek için clear komutuyla yeni satıra yanyana dizicez */
+
+.clear {
+/* Bu class ile sağlıyoruz o satırın iki tarafını da temizliyoruz
+bunu kullanırken boş bir div içine yazıyoruz
+o kadar*/
+    clear: both;
+}
+
+}
+.bg-red {
+    background-color: red;
+}
+.bg-green {
+    background-color:green
+}
+
+
+
+/* mesela bir left bar oluşturduk (solda duran uzun box)
+ve bunun keskin kenarlı değil biraz daha oval olmasını istiyoruz
+CEVAP: BORDER RADIUS
+Kullanım:
+.card{
+    border-radius:15px;
+}
+ */
