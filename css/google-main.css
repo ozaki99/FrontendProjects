@@ -1,0 +1,176 @@
+body {
+    margin: 0%;
+        overflow-y: hidden; /* Hide vertical scrollbar */
+        overflow-x: hidden; /* Hide horizontal scrollbar */      
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+            /* Link Options */ 
+            /* Links will be underlined when cursor over it */
+
+/* TOP SCREEN */
+
+.link:hover {
+    text-decoration: underline;
+}
+.end-link:hover {
+    text-decoration: underline;
+}
+
+
+
+.f-link-block:hover {
+    text-decoration: underline;
+}
+.f-link:hover {
+    text-decoration: underline;
+}
+.f-end-link:hover {
+    text-decoration: underline;
+}
+
+
+
+.f-link {
+    width: 40px ;
+    height: 25px ;
+    margin: 20px 25px 0px 25px ;
+    padding-right: 15px;
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float:left ;
+}
+
+.f-link-block {
+    width: 135px ;
+    height: 25px ;
+    margin: 20px 25px 0px 15px ;
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float:left ;
+}
+
+.f-end-link {
+    width: 40px ;
+    height: 18px ;
+    margin: 20px 10px ;
+    padding-left: 15px;
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float:right;
+}
+
+
+
+.link {
+    width: 40px ;
+    height: 18px ;
+    margin: 20px 0px 0px 25px;
+    padding-right: 15px;
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float:left;
+}
+
+.end-link {
+    color: rgb(92, 92, 92);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 40px ;
+    height: 18px ;
+    margin: 24px 15px;
+    text-decoration: none;
+    float:right;
+}
+
+.end-icon {
+    width: 21px ;
+    height: 21px ;
+    margin: 23px 20px;
+    text-decoration: none;
+    float:right;
+}
+.end-button {
+    border-radius: 3px;
+    border:none;
+    width: 75px ;
+    height: 35px ;
+    margin: 17px 35px 0px 0px ;
+    text-decoration: none;
+    color: white;
+    background-color: #4386f9;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float:right;
+}
+
+.head {
+    width: 100%;
+    height: 60px;
+}
+
+
+
+
+
+/* MIDDLE SCREEN  */
+
+
+/* THIS IS HOW TO CENTER THINGS */
+.center {
+    margin: auto ;
+    width: 50%;
+}
+
+/* THIS IS HOW TO CENTER IMG */
+.logo {
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: 60% ;
+    margin: -25px auto -30px ;
+    padding-top: 55px;
+}
+
+.search {
+    position: relative;
+    z-index: 2;
+    border-radius: 35px;
+    display: block;
+    width: 70%;
+    height: 45px;
+    margin: -48px 0px 0px 135px;
+    border: 3px ridge;
+}
+
+.icon {
+    position: relative;
+    z-index: 3;
+    width: 5%;
+    padding-left:88px ;
+}
+
+.mic {
+    position: relative;
+    z-index: 4;
+    width: 3%;
+    padding-left: 630px ;
+    margin: -100px 10px 25px 0px;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 55px;
+    margin-top: 289px;
+    background-color: rgb(220, 220, 220);
+}
