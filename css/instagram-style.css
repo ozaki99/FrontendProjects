@@ -1,0 +1,79 @@
+.leftmargin{
+    margin-left: 200px;
+}
+input[type="text"], textarea {
+    background-color: rgb(237, 237, 237);
+    background-image: url(https://img.uxwing.com/wp-content/themes/uxwing/download/user-interface/search-icon.png);
+    background-size: 8%;
+    background-repeat: no-repeat;
+    background-position: 40% 50%;
+}
+::placeholder{
+    text-align: center;
+}
+.jumbotron{
+    background-color: rgb(237, 237, 237);
+}
+input:focus::placeholder{
+    color: transparent;
+}
+.card55{
+    border: none;
+    background-color: transparent
+}
+.list-group-item{
+    padding-top: 3%;
+}
+i{
+    color: black;
+}
+.nav-item{
+    font-size: 1.4rem;
+}
+.profiles{
+    margin-left: -10px;
+    width: 15%;
+    border-radius: 100%;
+}
+.list-group-item{
+    background-color: transparent;
+    border: none;
+}
+.mar{
+    margin-right: -15px;
+}
+.card44{
+    border: 3px ridge ;
+    border-top-color: lightslategray;
+    border-left-color: pink;
+    border-bottom-color: yellow;
+    border-right-color: lightpink;
+    border-radius: 100%;
+    padding: 1px;
+    width: 75px;
+}
+.card{
+    border: none;
+}
+.destan{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.card-img-top{
+    max-height: 650px;
+    object-fit: cover;
+    border-radius: 0;
+}
+.card-header{
+    background-color: transparent;
+}
+.fle{
+    margin-left: 475px;
+}
+.nav-item1{
+    padding-left: 15px;
+}
+.bgtrans{
+    background-color: transparent;
+}
