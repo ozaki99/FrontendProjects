@@ -1,0 +1,38 @@
+.fontcss {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo-border {
+    width: 190px;
+    border-radius: 50px;
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    
+}
+
+.p-vertical {
+    padding: 83px 0px 83px 0px ;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.h-margin {
+    margin-bottom: 35px;
+}
+
+.h-size {
+    font-size: 106px
+}
+
+.p-margin {
+    margin-bottom: 50px;
+}
+.hide-bg{
+  mix-blend-mode: multiply;
+  filter: contrast(2);
+}
+.list-inline-item {
+    padding-top: 10px;
+}
